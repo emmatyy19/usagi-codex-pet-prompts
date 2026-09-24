@@ -18,7 +18,7 @@ scripts/
 dist/
 private/
 
-# Local project notes kept outside the prompt-only publication
+# Local project notes kept outside the public repository
 CHANGELOG.md
 
 # Generated media and archives anywhere else
@@ -30,3 +30,6 @@ CHANGELOG.md
 *.zip
 *.mp4
 *.mov
+
+# Deliberately selected public screenshots
+!showcase/*.png
