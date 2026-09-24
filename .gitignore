@@ -1,0 +1,32 @@
+# Local and system files
+.DS_Store
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+
+# Private character artwork, references, generation runs, packages, and QA
+reference/
+references/
+runs/
+pets/
+previews/
+showcase-private/
+design/
+scripts/
+dist/
+private/
+
+# Local project notes kept outside the prompt-only publication
+CHANGELOG.md
+
+# Generated media and archives anywhere else
+*.png
+*.webp
+*.gif
+*.jpg
+*.jpeg
+*.zip
+*.mp4
+*.mov
